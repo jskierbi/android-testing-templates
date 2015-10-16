@@ -100,4 +100,7 @@ dependencies {
 
     // UIAutomator Testing. Learn about this dependency in this projects README file.
     androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:' + rootProject.ext.uiautomatorVersion
+
+    compile "com.google.android.gms:play-services-maps:7.5.0"
+    compile "com.google.android.gms:play-services-location:7.5.0"
 }
